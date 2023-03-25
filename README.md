@@ -1,5 +1,13 @@
 # Datasets en Confusion Matrix Assignment
 For this assignment I've worked with the mushroom.csv file to see if a mushroom is indeed edible or poisonous. The DecisionTree made this all possible.
 
-# Things I haven't fixed
-- In a separate html file called model-loader.html I've loaded in the JSON but I didn't made an UI basically for the reason I couldn't make this user friendly with the mushroom data. If I had chosen the titanic dataset it would be easier to make users predict if person x survived the titanic. Because I need the semantic labels and p en e doesn't make sense at all for the user.
+# Demo: Dataset and Confusion Matrix
+![image](https://user-images.githubusercontent.com/34915099/227734520-962260ca-2547-4a61-a15e-ff5b78071d44.png)
+
+
+# Demo: model.json 
+![image](https://user-images.githubusercontent.com/34915099/227734482-58500dcb-94d4-44b7-8824-b7d422402d4a.png)
+
+
+# Loaded JSON page
+You can find the working app with JSON loaded instead of CSV at https://kimono-k.github.io/prg8-week6-inleveropdracht/model-loader
