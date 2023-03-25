@@ -1,37 +1,5 @@
-# Opdracht
+# Datasets en Confusion Matrix Assignment
+For this assignment I've worked with the mushroom.csv file to see if a mushroom is indeed edible or poisonous. The DecisionTree made this all possible.
 
-- Schrijf een for-loop waarin je alle rijen uit de testdata test.
-- Je kan bijhouden hoeveel van jouw prediction overeenkometn met de werkelijkheid --> check script!
-
-# CSV Dataset
-
-- Voorspel of je het eten van een paddestoel gaat overleven met de Poisonous mushrooms dataset.
-
-# Categorische waarde
-
-- Survived
-- Not survived
-
-# Edible
-
-- Fit or suitable to be eaten.
-
-# Classification Dataseet
-
-- Een label met een categorische waarde.
-
-# Bekijk je CSV Data
-
-- Controleer op welk label je wilt trainen.
-  == mushrooms.csv ==
-- Het label = class
-- De inhoud = p (posionous) en e (edible)
-
-# Sorteren Data
-
-- Als je CSV PER ONGELUK gesorteerd is op label, dan heeft je TRAINDATA alle positieve labels, en je TESTDATA alle negatieve labels.
-- Om verkeerde training te voorkomen shuffle je de array VOORDAT je SPLITST op traindata en testdata.
-
-# Traindata en testdata
-
-- TRAINING EN TESTDATA DATA BEREKENEN voor check WERKING ALGORITME.
+# Things I haven't fixed
+- In a separate html file called model-loader.html I've loaded in the JSON but I didn't made an UI basically for the reason I couldn't make this user friendly with the mushroom data. If I had chosen the titanic dataset it would be easier to make users predict if person x survived the titanic. Because I need the correct labels and p en e doesn't make sense at all for the user.
